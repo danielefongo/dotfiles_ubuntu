@@ -1,7 +1,10 @@
+sudo apt-get update
+
 # terminal
 sudo apt-get install zsh -y
 sudo chsh -s $(which zsh) $(whoami)
 
+sudo apt-get install vim -y
 sudo apt-get install curl -y
 sudo apt-get install hub -y
 sudo apt-get install tig -y
