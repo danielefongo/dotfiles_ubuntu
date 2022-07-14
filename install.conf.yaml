@@ -3,7 +3,13 @@
       create: true
       relink: true
       force: true
+    shell:
+      stdout: true
+      stderr: true
 
 - link:
     ~/.gitconfig: dots/.gitconfig
     ~/.gitignore_global: dots/.gitignore_global
+
+- shell:
+    - [bash install.sh]
