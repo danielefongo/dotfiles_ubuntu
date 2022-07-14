@@ -1,4 +1,7 @@
 # terminal
+sudo apt-get install zsh -y
+sudo chsh -s $(which zsh) $(whoami)
+
 sudo apt-get install hub -y
 sudo apt-get install tig -y
 sudo apt-get install delta -y

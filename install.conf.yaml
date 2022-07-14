@@ -10,6 +10,7 @@
 - link:
     ~/.gitconfig: dots/.gitconfig
     ~/.gitignore_global: dots/.gitignore_global
+    ~/.zshrc: dots/.zshrc
 
 - shell:
     - [bash install.sh]
