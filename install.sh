@@ -49,3 +49,7 @@ if [[ -z "$(groups | grep docker)" ]] ; then
   sudo groupadd docker
   sudo usermod -aG docker $USER
 fi
+
+# emacs
+sudo apt-get install emacs cmake libtool-bin -y
+# ~/.emacs.d/bin/doom install --force

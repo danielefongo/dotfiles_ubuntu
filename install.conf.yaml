@@ -12,6 +12,8 @@
     ~/.gitignore_global: dots/.gitignore_global
     ~/.zshrc: dots/.zshrc
     ~/.tool-versions: dots/.tool-versions
+    ~/.emacs.d: dots/doom-emacs
+    ~/.doom.d: dots/.doom.d
 
 - shell:
     - [bash install.sh]
