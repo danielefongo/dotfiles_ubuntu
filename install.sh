@@ -19,3 +19,15 @@ sudo apt-get install httpie -y
 sudo apt-get install fzf -y
 sudo apt-get install gpg -y
 sudo apt-get install cloc -y
+
+# asdf
+sudo apt-get install build-essential automake autoconf libncurses5-dev libssl-dev libffi-dev zlib1g-dev -y
+
+source asdf/asdf.sh
+asdf plugin add erlang
+asdf plugin add elixir
+asdf plugin add elm
+asdf plugin add nodejs
+asdf plugin add python
+asdf plugin add rust
+asdf install

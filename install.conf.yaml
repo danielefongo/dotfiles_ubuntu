@@ -11,6 +11,7 @@
     ~/.gitconfig: dots/.gitconfig
     ~/.gitignore_global: dots/.gitignore_global
     ~/.zshrc: dots/.zshrc
+    ~/.tool-versions: dots/.tool-versions
 
 - shell:
     - [bash install.sh]
