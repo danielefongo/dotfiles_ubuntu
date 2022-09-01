@@ -16,7 +16,6 @@ sudo apt-get install bat -y
 sudo apt-get install tldr -y
 sudo apt-get install jq -y
 sudo apt-get install ncdu -y
-sudo apt-get install pidof -y
 sudo apt-get install htop -y
 sudo apt-get install httpie -y
 sudo apt-get install fzf -y
@@ -52,4 +51,4 @@ fi
 
 # emacs
 sudo apt-get install emacs cmake libtool-bin -y
-# ~/.emacs.d/bin/doom install --force
+$HOME/.emacs.d/bin/doom install --force
