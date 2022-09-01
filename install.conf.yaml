@@ -15,6 +15,11 @@
     ~/.emacs.d: dots/doom-emacs
     ~/.asdf: dots/asdf
     ~/.doom.d: dots/.doom.d
+    ~/.config/i3: dots/i3
+    ~/.config/polybar: dots/polybar
+    ~/.config/rofi: dots/rofi
+    ~/.config/dunst: dots/dunst
+    ~/.local/share/fonts: dots/fonts
 
 - shell:
     - [bash install.sh]

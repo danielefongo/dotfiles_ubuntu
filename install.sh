@@ -22,6 +22,12 @@ sudo apt-get install fzf -y
 sudo apt-get install gpg -y
 sudo apt-get install cloc -y
 
+# utils
+sudo apt-get install i3 -y
+sudo apt-get install rofi -y
+sudo apt-get install polybar -y
+sudo apt-get install flameshot -y
+
 # asdf
 sudo apt-get install build-essential automake autoconf libncurses5-dev libssl-dev libffi-dev zlib1g-dev -y
 
