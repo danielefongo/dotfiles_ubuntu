@@ -26,7 +26,7 @@ sudo apt-get install cloc -y
 # asdf
 sudo apt-get install build-essential automake autoconf libncurses5-dev libssl-dev libffi-dev zlib1g-dev -y
 
-source asdf/asdf.sh
+source dots/asdf/asdf.sh
 asdf plugin add erlang
 asdf plugin add elixir
 asdf plugin add elm
@@ -38,7 +38,7 @@ asdf install
 # docker
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
 sudo mkdir -p /etc/apt/keyrings
-if ![[ -f /etc/apt/keyrings/docker.gpg ]]; then
+if ! [[ -f /etc/apt/keyrings/docker.gpg ]]; then
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 fi
 echo \

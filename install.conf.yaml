@@ -13,6 +13,7 @@
     ~/.zshrc: dots/.zshrc
     ~/.tool-versions: dots/.tool-versions
     ~/.emacs.d: dots/doom-emacs
+    ~/.asdf: dots/asdf
     ~/.doom.d: dots/.doom.d
 
 - shell:

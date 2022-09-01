@@ -6,6 +6,3 @@
 	path = dots
 	url = git@github.com:danielefongo/dots
 	ignore = dirty
-[submodule "asdf"]
-	path = asdf
-	url = git@github.com:asdf-vm/asdf
