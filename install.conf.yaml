@@ -19,6 +19,7 @@
     ~/.config/polybar: dots/polybar
     ~/.config/rofi: dots/rofi
     ~/.config/dunst: dots/dunst
+    ~/.config/kitty: dots/kitty
     ~/.local/share/fonts: dots/fonts
 
 - shell:
