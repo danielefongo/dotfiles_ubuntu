@@ -21,6 +21,7 @@
     ~/.config/dunst: dots/dunst
     ~/.config/kitty: dots/kitty
     ~/.local/share/fonts: dots/fonts
+    ~/.config/nvim: dots/nvim
 
 - shell:
     - [bash install.sh]
