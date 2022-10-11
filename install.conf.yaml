@@ -12,9 +12,7 @@
     ~/.gitignore_global: dots/.gitignore_global
     ~/.zshrc: dots/.zshrc
     ~/.tool-versions: dots/.tool-versions
-    ~/.emacs.d: dots/doom-emacs
     ~/.asdf: dots/asdf
-    ~/.doom.d: dots/.doom.d
     ~/.config/i3: dots/i3
     ~/.config/polybar: dots/polybar
     ~/.config/rofi: dots/rofi
