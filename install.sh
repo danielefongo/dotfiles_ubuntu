@@ -9,7 +9,6 @@ sudo apt-get install neovim -y
 sudo apt-get install curl -y
 sudo apt-get install hub -y
 sudo apt-get install tig -y
-sudo apt-get install delta -y
 sudo apt-get install autojump -y
 sudo apt-get install ripgrep -y
 sudo apt-get install tree -y
@@ -34,12 +33,9 @@ sudo apt-get install kitty -y
 sudo apt-get install build-essential automake autoconf libncurses5-dev libssl-dev libffi-dev zlib1g-dev -y
 
 source dots/asdf/asdf.sh
-asdf plugin add erlang
-asdf plugin add elixir
-asdf plugin add elm
-asdf plugin add nodejs
-asdf plugin add python
-asdf plugin add rust
+cat ~/.tool-versions | cut -f1 -d' ' | grep -ve '^$' | while read package; do
+  asdf plugin add $package
+done
 asdf install
 
 # docker
