@@ -24,6 +24,7 @@ sudo apt-get install cloc -y
 
 # utils
 sudo apt-get install i3 -y
+sudo apt-get install i3lock-fancy -y
 sudo apt-get install rofi -y
 sudo apt-get install polybar -y
 sudo apt-get install flameshot -y
