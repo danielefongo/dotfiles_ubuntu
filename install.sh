@@ -1,3 +1,4 @@
+# update
 sudo apt-get update
 
 # terminal
@@ -29,6 +30,7 @@ sudo apt-get install rofi -y
 sudo apt-get install polybar -y
 sudo apt-get install flameshot -y
 sudo apt-get install kitty -y
+sudo apt-get install feh -y
 
 # asdf
 sudo apt-get install build-essential automake autoconf libncurses5-dev libssl-dev libffi-dev zlib1g-dev -y
