@@ -22,4 +22,5 @@
     ~/.config/nvim: dots/nvim
 
 - shell:
+    - [bash sources.sh]
     - [bash install.sh]
