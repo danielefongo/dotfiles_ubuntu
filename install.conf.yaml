@@ -18,6 +18,7 @@
     ~/.config/rofi: dots/rofi
     ~/.config/dunst: dots/dunst
     ~/.config/kitty: dots/kitty
+    ~/.config/picom: dots/picom
     ~/.local/share/fonts: dots/fonts
     ~/.config/nvim: dots/nvim
 

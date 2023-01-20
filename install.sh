@@ -31,6 +31,7 @@ sudo apt-get install polybar -y
 sudo apt-get install flameshot -y
 sudo apt-get install kitty -y
 sudo apt-get install feh -y
+sudo apt-get install picom -y
 
 # asdf
 sudo apt-get install build-essential automake autoconf libncurses5-dev libssl-dev libffi-dev zlib1g-dev -y
