@@ -22,6 +22,7 @@ sudo apt-get install httpie -y
 sudo apt-get install fzf -y
 sudo apt-get install gpg -y
 sudo apt-get install cloc -y
+sudo apt-get install tmux -y
 
 # utils
 sudo apt-get install i3 -y
@@ -29,7 +30,7 @@ sudo apt-get install i3lock-fancy -y
 sudo apt-get install rofi -y
 sudo apt-get install polybar -y
 sudo apt-get install flameshot -y
-sudo apt-get install kitty -y
+sudo apt-get install alacritty -y
 sudo apt-get install feh -y
 sudo apt-get install picom -y
 

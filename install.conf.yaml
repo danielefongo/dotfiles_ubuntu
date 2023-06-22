@@ -17,7 +17,8 @@
     ~/.config/polybar: dots/polybar
     ~/.config/rofi: dots/rofi
     ~/.config/dunst: dots/dunst
-    ~/.config/kitty: dots/kitty
+    ~/.config/alacritty: dots/alacritty
+    ~/.tmux.conf: dots/tmux/tmux.conf
     ~/.config/picom: dots/picom
     ~/.local/share/fonts: dots/fonts
     ~/.config/nvim: dots/nvim
