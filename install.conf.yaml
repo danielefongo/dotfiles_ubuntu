@@ -8,11 +8,10 @@
       stderr: true
 
 - link:
-    ~/.gitconfig: dots/.gitconfig
-    ~/.gitignore_global: dots/.gitignore_global
     ~/.zshrc: dots/.zshrc
     ~/.tool-versions: dots/.tool-versions
     ~/.asdf: dots/asdf
+    ~/.config/git: dots/git
     ~/.config/i3: dots/i3
     ~/.config/polybar: dots/polybar
     ~/.config/rofi: dots/rofi
