@@ -10,7 +10,6 @@
 - link:
     ~/.zshrc: dots/.zshrc
     ~/.tool-versions: dots/.tool-versions
-    ~/.asdf: dots/asdf
     ~/.config/git: dots/git
     ~/.config/i3: dots/i3
     ~/.config/polybar: dots/polybar
