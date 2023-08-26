@@ -21,7 +21,9 @@
     ~/.local/share/fonts: dots/fonts
     ~/.config/nvim: dots/nvim
     ~/.config/systemd/user: dots/systemd
-    ~/.local/bin/desktop-init: dots/scripts/desktop-init
+    ~/.local/bin/:
+      glob: true
+      path: dots/scripts/*
 
 - shell:
     - [bash sources.sh]
