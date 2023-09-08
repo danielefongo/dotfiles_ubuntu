@@ -23,6 +23,7 @@ sudo apt-get install fzf -y
 sudo apt-get install gpg -y
 sudo apt-get install cloc -y
 sudo apt-get install tmux -y
+curl https://rtx.pub/install.sh | sh
 
 # utils
 sudo apt-get install i3 -y
@@ -34,7 +35,7 @@ sudo apt-get install alacritty -y
 sudo apt-get install feh -y
 sudo apt-get install picom -y
 
-# asdf deps
+# rtx deps
 sudo apt-get install build-essential automake autoconf libncurses5-dev libssl-dev libffi-dev zlib1g-dev -y
 
 # docker

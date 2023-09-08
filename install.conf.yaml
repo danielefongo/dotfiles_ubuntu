@@ -9,7 +9,7 @@
 
 - link:
     ~/.zshrc: dots/.zshrc
-    ~/.tool-versions: dots/.tool-versions
+    ~/.config/rtx/config.toml: dots/.rtx.toml
     ~/.config/git: dots/git
     ~/.config/i3: dots/i3
     ~/.config/polybar: dots/polybar
