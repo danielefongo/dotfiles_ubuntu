@@ -17,7 +17,7 @@ sudo apt-get install bat -y
 sudo apt-get install tldr -y
 sudo apt-get install jq -y
 sudo apt-get install ncdu -y
-sudo apt-get install htop -y
+sudo apt-get install btop -y
 sudo apt-get install httpie -y
 sudo apt-get install fzf -y
 sudo apt-get install gpg -y

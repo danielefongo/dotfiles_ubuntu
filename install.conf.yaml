@@ -21,6 +21,7 @@
     ~/.local/share/fonts: dots/fonts
     ~/.config/nvim: dots/nvim
     ~/.config/systemd/user: dots/systemd
+    ~/.config/btop: dots/btop
     ~/.local/bin/:
       glob: true
       path: dots/scripts/*
