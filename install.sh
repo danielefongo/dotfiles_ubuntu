@@ -23,7 +23,7 @@ sudo apt-get install fzf -y
 sudo apt-get install gpg -y
 sudo apt-get install cloc -y
 sudo apt-get install tmux -y
-curl https://rtx.pub/install.sh | sh
+curl https://mise.jdx.dev/install.sh | sh
 
 # utils
 sudo apt-get install i3 -y
